@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topMessageBar{
+    background-color: #064061;
+}
+.header-Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 40px;
+}
+.links-wrapper li{
+    list-style: none;
+    transition: all 500s ease;
+}
+.links-wrapper li a{
+    text-decoration: none;
+    color: #064061;
+}
+
+.links-wrapper li :hover{
+background-color:#064061;
+padding: 10px 20px;
+border-radius: 50px;
+
+}
+.links-wrapper li a:hover{
+    color: #ffffff;
+}
+
+
+/* home section  */
+.headerMainContainerLeft{
+    position: relative;
+}
+.headerMain-wapper{
+    width: 80%;
+    margin: auto;
+}
+.headerMain-wapper h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.btnContact{
+    padding: 20px 35px;
+    border-radius: 50px;
+    background-color: #2639ED;
+}
+.btnContact:hover{
+    background-color: #064061cc;
+}
+.dotWrapper img{
+position: relative;
+z-index: -1;
+}
