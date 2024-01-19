@@ -26,5 +26,5 @@
     <div class="col-lg-8"></div>
 </div>
 </section>
-zdsafasdas
 <?php include 'app/footer.php';?>
+khasdkashdkhds
