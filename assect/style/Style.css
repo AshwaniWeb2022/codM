@@ -77,3 +77,44 @@ z-index: -1;
     width: 100px;
     margin-right: 5px;
 }
+
+/* pseudo elements */
+.h1 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid rgb(255, 201, 86);
+    margin: 50px auto;
+    position: relative;
+}
+.sudoBGColor
+
+{
+    padding: relative;
+}
+.sudo{
+        padding-block-start: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 180px;
+        border-radius: 140px 0px 0px 0px;
+        background-color: #ffe59e;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        z-index: -2;
+}
+.sudoBGColor2{
+    padding: relative;
+}
+.sudo2{
+    padding-block-start: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    border-radius: 140px 0px 0px 0px;
+    background-color: #d8ebffc0;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: -2;
+}
